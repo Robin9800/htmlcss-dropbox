@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.clearfix{
+    float: left;
+}
+
+.clearfix nav{
+    display: inline-block;
+}
