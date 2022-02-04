@@ -19,6 +19,15 @@ header{
     border-bottom: 1px solid black;
 }
 
+.debug{
+    border: 1px solid black;
+}
+
+.display-inline{
+    display: inline-block;
+}
+
+
 .prova-gratuita{
     height: 682px;
     background-color: hsl(207deg 52% 81%);
@@ -45,7 +54,8 @@ header nav{
 header li{
     list-style-type: none;
     display: inline-block;
-    margin-bottom: 28px;
+    margin: -30px 0px;
+    padding: 30px 0px;
 }
 
 header a{
@@ -74,6 +84,15 @@ header a{
     text-decoration: none;
 }
 
+.btn:hover {
+    text-decoration: underline;
+  }
+
+header li:hover {
+    border-bottom: 1px solid black;
+}
+
+
 .titolo-header{
     padding-top: 80px;
     padding-left: 150px;
@@ -101,6 +120,14 @@ header a{
     margin-top: -34px;
 }
 
+
+.fas{
+    width: 30px;
+    padding-left: 150px;
+    display: block;
+    font-size: 38px
+}
+
 .immagini{
     float: right;
     top: 400px;
@@ -110,7 +137,6 @@ header a{
 }
 
 .position{
-    display: inline-block;
     position: absolute;
 }
 
@@ -124,8 +150,53 @@ header a{
     display: inline-block;
 }
 
-.fas{
-    padding-left: 150px;
-    display: block;
-    font-size: 38px
+.section-1{
+    position: relative;
+    top: 180px;
+    height: 1000px;
+    margin: 0px 200px;
+}
+
+.piano{
+    margin: 0px 30px;
+}
+
+.piano li{
+    display: inline-block;
+    margin: 40px 10px;
+}
+
+.piano h1{
+    font-size: 38px;
+}
+
+.tariffe{
+    float: left;
+    width: 278px;
+    height: 700px;
+    margin: 0px 47px;
+}
+
+.info{
+    padding: 26px 22px;
+}
+
+.soggetto{
+    height: auto;
+    width: 100%;
+}
+
+.soggetto p{
+    text-align: center;
+    padding: 8px 32px;
+}
+
+.tariffe h2,h4{
+    margin-bottom: 5px;
+}
+
+.tariffe h5{
+    color:#85929c;
+    margin-bottom: 30px;
+    font-size: 12px;
 }
