@@ -73,12 +73,18 @@ header a{
     float: left;
 }
 
+.top{
+    position: relative;
+    top: -126px;
+    right: 30px;
+}
+
 
 .btn{
     color: white;
     margin-top: 22px;
     margin-bottom: 22px;
-    padding: 8px 18px;
+    padding: 8px 31px;
     font-size: 14px;
     background-color: hsl(217deg 100% 50%);
     text-decoration: none;
@@ -153,7 +159,7 @@ header li:hover {
 .section-1{
     position: relative;
     top: 180px;
-    height: 1000px;
+    height: 1300px;
     margin: 0px 200px;
 }
 
@@ -164,26 +170,42 @@ header li:hover {
 .piano li{
     display: inline-block;
     margin: 40px 10px;
+    padding-left: 12px;
+    
 }
 
 .piano h1{
     font-size: 38px;
+    padding-left: 16px;
 }
 
 .tariffe{
     float: left;
     width: 278px;
-    height: 700px;
+    height: 820px;
     margin: 0px 47px;
+    border: 1px solid hsl(240deg 4% 90%);
 }
 
 .info{
     padding: 26px 22px;
 }
 
+.info li{
+    font-size: 82%;
+    margin: 20px 0px;
+    list-style-type: none;
+}
+
+.info h3{
+    margin-top: 30px;
+    font-size: 16px;
+}
+
 .soggetto{
     height: auto;
     width: 100%;
+    border-bottom: 1px solid hsl(240deg 4% 90%);
 }
 
 .soggetto p{
@@ -192,11 +214,98 @@ header li:hover {
 }
 
 .tariffe h2,h4{
-    margin-bottom: 5px;
+    margin-bottom: 12px;
 }
 
 .tariffe h5{
     color:#85929c;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 12px;
+}
+
+.acquista-ora{
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.acquista-ora a{
+    color: hsl(217deg 100% 50%);
+}
+
+.line{
+    margin-top: 28px;
+    width: 60px;
+    border-bottom: 1px solid lightgray;
+}
+
+.team{
+    display: inline-block;
+    height: 200px;
+    width: 1024px;
+    margin: 50px 47px;
+    border: 1px solid hsl(240deg 4% 90%);
+}
+
+.team div{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+.team p{
+    padding: 10px;
+}
+
+.team h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.margin-left{
+    margin-left: 30px;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.section-2{
+    position: relative;
+    top: 250px;
+    height: 471px;
+    margin: 0px 250px;
+}
+
+.section-2 img{
+    width: 550px;
+}
+
+.section-2 h1{
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.partner{
+    width: 380px;
+    height: 260px;
+    margin: 30px 36px 0px 0px;
+}
+
+.partner p{
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+
+.btn-bianco{
+    color: black;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 8px 31px;
+    font-size: 14px;
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid black;
 }
