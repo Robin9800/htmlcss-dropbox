@@ -20,7 +20,7 @@ header{
 }
 
 .prova-gratuita{
-    height: 650px;
+    height: 682px;
     background-color: hsl(207deg 52% 81%);
 }
 
@@ -97,20 +97,35 @@ header a{
 }
 
 .annulla p{
+    font-size: 13px;
     margin-top: -34px;
 }
 
 .immagini{
-    right: 50px;
-    width: 650px;
-    height: 500px;
+    float: right;
+    top: 400px;
+    right: 184px;
+    width: 738px;
+    height: 420px;
 }
 
+.position{
+    display: inline-block;
+    position: absolute;
+}
+
+
 .immagini img{
-    width: 600px;
+    width: 760px;
 }
 
 #p-bottone{
     width: 44%;
     display: inline-block;
+}
+
+.fas{
+    padding-left: 150px;
+    display: block;
+    font-size: 38px
 }
