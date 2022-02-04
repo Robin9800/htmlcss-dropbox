@@ -174,7 +174,7 @@ header li:hover {
     
 }
 
-.piano h1{
+.titolo{
     font-size: 38px;
     padding-left: 16px;
 }
@@ -278,11 +278,12 @@ header li:hover {
     position: relative;
     top: 250px;
     height: 471px;
-    margin: 0px 250px;
+    
 }
 
 .section-2 img{
     width: 550px;
+    margin-left: 300px;
 }
 
 .section-2 h1{
@@ -294,7 +295,7 @@ header li:hover {
 .partner{
     width: 380px;
     height: 260px;
-    margin: 30px 36px 0px 0px;
+    margin: 36px 230px 0px 0px
 }
 
 .partner p{
@@ -312,4 +313,19 @@ header li:hover {
     background-color: white;
     text-decoration: none;
     border: 2px solid black;
+}
+
+.section-3{
+    display: inline-block;
+    position: relative;
+    top: 360px;
+    width: 100%;
+    height: 900px;
+}
+
+.operazioni{
+    float: left;
+    width: 305px;
+    height: 450px;
+    
 }
