@@ -15,7 +15,7 @@ header{
 
 .container{
     width: 100%;
-    height: 5100px;
+    height: 6000px;
     border-bottom: 1px solid black;
 }
 
@@ -376,12 +376,40 @@ header li:hover {
     margin-top: 20px;
 }
 
-.titolo-2 a{
+#line-blu{
     color: hsl(217deg 100% 50%);
 }
 
+.section-5{
+    display: inline-block;
+    position: relative;
+    background-color: hsl(207deg 52% 81%);
+    top: 420px;
+    width: 100%;
+    height: 320px;
+}
 
- 
+.margin{
+   color: hsl(336deg 85% 21%);
+    margin-top: 7%;
+}
+
+.section-5 p{
+    position: relative;
+    float: right;
+    top: -93px;
+    right: 256px;
+}
+
+.btn-prova{
+    color: black;
+    padding: 8px 50px;
+    font-size: 14px;
+    background-color: white;
+    text-decoration: none;
+}
+
+
 
 
 
