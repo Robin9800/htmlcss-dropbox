@@ -176,7 +176,17 @@ header li:hover {
 
 .titolo{
     font-size: 38px;
-    padding-left: 16px;
+    position: relative;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    left: 22px;
+}
+
+.titolo h1{
+    font-size: 38px;
+    margin-left: 242px;
+    margin-bottom: 40px;
 }
 
 .tariffe{
@@ -283,7 +293,7 @@ header li:hover {
 
 .section-2 img{
     width: 550px;
-    margin-left: 300px;
+    margin-left: 268px;
 }
 
 .section-2 h1{
@@ -295,7 +305,7 @@ header li:hover {
 .partner{
     width: 380px;
     height: 260px;
-    margin: 36px 230px 0px 0px
+    margin: 36px 265px 0px 0px
 }
 
 .partner p{
@@ -320,12 +330,27 @@ header li:hover {
     position: relative;
     top: 360px;
     width: 100%;
-    height: 900px;
+    height: 1225px;
 }
 
 .operazioni{
     float: left;
-    width: 305px;
-    height: 450px;
-    
+    height: 500px;
+    width: 300px;
+    margin: 0px 19px 50px 19px;
+}
+
+
+.operazioni img{
+    width: 100%;
+}
+
+.operazioni p{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.container-2{
+    margin: 0px 250px;
+    height: 94%;
 }
