@@ -428,4 +428,15 @@ footer{
     background-color: black;
 }
 
+.h1-footer{
+    position: relative;
+    left: 250px;
+    top: 126px;
+    display: inline-block;
+    width: 24%;
+}
+
+.h1-footer h1{
+    font-size: 30px;
+}
     
