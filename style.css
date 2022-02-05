@@ -15,7 +15,7 @@ header{
 
 .container{
     width: 100%;
-    height: 6000px;
+    height: 6100px;
     border-bottom: 1px solid black;
 }
 
@@ -337,7 +337,7 @@ header li:hover {
     float: left;
     height: 500px;
     width: 300px;
-    margin: 0px 19px 50px 19px;
+    margin: 0px 20px 50px 19px;
 }
 
 
@@ -346,8 +346,10 @@ header li:hover {
 }
 
 .operazioni p{
+    font-size: 14px;
+    padding-right: 10px;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .container-2{
@@ -409,8 +411,21 @@ header li:hover {
     text-decoration: none;
 }
 
+.section-6{
+    display: inline-block;
+    position: relative;
+    top: 420px;
+    width: 100%;
+    height: 650px;
+}
 
-
-
+footer{
+    display: inline-block;
+    position: relative;
+    top: 415px;
+    width: 100%;
+    height: 460px;
+    background-color: black;
+}
 
     
