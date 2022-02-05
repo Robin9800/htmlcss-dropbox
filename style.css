@@ -354,3 +354,35 @@ header li:hover {
     margin: 0px 250px;
     height: 94%;
 }
+
+.section-4{
+    display: inline-block;
+    position: relative;
+    top: 420px;
+    width: 100%;
+    height: 600px;
+}
+
+.titolo-2{
+    font-size: 24px;
+    position: relative;
+    width: 34%;
+    margin-top: 16px;
+    left: 260px;
+}
+
+.titolo-2 p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.titolo-2 a{
+    color: hsl(217deg 100% 50%);
+}
+
+
+ 
+
+
+
+    
