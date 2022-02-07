@@ -128,10 +128,9 @@ header li:hover {
 
 
 .fas{
-    width: 30px;
     padding-left: 150px;
     display: block;
-    font-size: 38px
+    font-size: 26px;
 }
 
 .immagini{
@@ -428,15 +427,30 @@ footer{
     background-color: black;
 }
 
-.h1-footer{
+.domande{
     position: relative;
     left: 250px;
-    top: 126px;
+    top: 100px;
     display: inline-block;
-    width: 24%;
 }
 
-.h1-footer h1{
+.domande h1{
     font-size: 30px;
+    border-bottom: 1px solid hsl(240deg 2% 91%);
+    padding-bottom: 50px;
+}
+
+
+.domande li{
+    list-style-type: none;
+    margin: 20px 0px 20px 0px;
+    width: 1000px;
+    border-bottom: 1px solid hsl(240deg 2% 91%);
+    padding: 12px 0px 32px 0px;
 }
     
+.arrow{
+    display: inline-block;
+    position: relative;
+    float: right;
+}
