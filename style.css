@@ -454,3 +454,60 @@ footer{
     position: relative;
     float: right;
 }
+
+.footer{
+    margin: 100px 0px 0px 150px;
+}
+
+.footer h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer li{
+    font-size: 14px;
+    color: hsl(0deg 0% 79%);
+    list-style-type: none;
+}
+
+.final-list{
+    margin-right: 100px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.final-list li{
+    line-height: 26px;
+}
+
+.logo-finale{
+    width: 120px;
+    height: 60px;
+    border-bottom: 1px solid hsl(0deg 0% 57%);;
+}
+
+.logo-finale p{
+    font-size: 12px;
+    position: relative;
+    top: 100px;
+    margin-top: 30px;
+    color: hsl(0deg 0% 57%);
+}
+
+.freccia-su{
+    color: hsl(0deg 0% 57%);
+    font-size: 16px;
+    padding-left: 0px;
+    display: inline-block;
+}
+
+.fa-globe-americas{
+    padding-left: 0px;
+    color: hsl(0deg 0% 57%);
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 16px;
+
+
+}
